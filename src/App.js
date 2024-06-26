@@ -1,10 +1,24 @@
-import "./styles.css";
+import React from 'react';
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <header className="App-header">
+        <img src="https://www.propelleraero.com/wp-content/uploads/2021/05/Vector.svg" className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
+
+export default App;
